@@ -24,6 +24,7 @@ func main(){
 	inhaSlice[1] = "n"
 	inhaSlice[2] = "h"
 	inhaSlice[3] = "a"
+
 	fmt.Println(square(7))
 
 	for i := 0 ; i < len(inhaSlice); i++ {
@@ -34,3 +35,4 @@ func main(){
 	fmt.Println(sum(nums...))
 
 //	fmt.Println(1)}
+}
